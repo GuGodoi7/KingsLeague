@@ -1,0 +1,54 @@
+﻿@model KingsLeague.Models.Jogos
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Jogos</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="JogoId" />
+            <div class="form-group">
+                <label asp-for="DataJogo" class="control-label"></label>
+                <input asp-for="DataJogo" class="form-control" />
+                <span asp-validation-for="DataJogo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TimeMandante" class="control-label"></label>
+                <input asp-for="TimeMandante" class="form-control" />
+                <span asp-validation-for="TimeMandante" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="timeVisitante" class="control-label"></label>
+                <input asp-for="timeVisitante" class="form-control" />
+                <span asp-validation-for="timeVisitante" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoJogo" class="control-label"></label>
+                <input asp-for="TipoJogo" class="form-control" />
+                <span asp-validation-for="TipoJogo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Publico" class="control-label"></label>
+                <input asp-for="Publico" class="form-control" />
+                <span asp-validation-for="Publico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

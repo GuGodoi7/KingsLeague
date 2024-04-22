@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8B483E9-4E85-436E-823B-8E83CF894880}|KingsLeague\\KingsLeague.csproj|c:\\users\\desktop\\source\\repos\\kingsleague\\kingsleague\\controllers\\patrocinioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8B483E9-4E85-436E-823B-8E83CF894880}|KingsLeague\\KingsLeague.csproj|solutionrelative:kingsleague\\controllers\\patrocinioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8B483E9-4E85-436E-823B-8E83CF894880}|KingsLeague\\KingsLeague.csproj|c:\\users\\desktop\\source\\repos\\kingsleague\\kingsleague\\models\\jogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8B483E9-4E85-436E-823B-8E83CF894880}|KingsLeague\\KingsLeague.csproj|solutionrelative:kingsleague\\models\\jogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8B483E9-4E85-436E-823B-8E83CF894880}|KingsLeague\\KingsLeague.csproj|c:\\users\\desktop\\source\\repos\\kingsleague\\kingsleague\\models\\tecnicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8B483E9-4E85-436E-823B-8E83CF894880}|KingsLeague\\KingsLeague.csproj|solutionrelative:kingsleague\\models\\tecnicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8B483E9-4E85-436E-823B-8E83CF894880}|KingsLeague\\KingsLeague.csproj|c:\\users\\desktop\\source\\repos\\kingsleague\\kingsleague\\models\\times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8B483E9-4E85-436E-823B-8E83CF894880}|KingsLeague\\KingsLeague.csproj|solutionrelative:kingsleague\\models\\times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8B483E9-4E85-436E-823B-8E83CF894880}|KingsLeague\\KingsLeague.csproj|c:\\users\\desktop\\source\\repos\\kingsleague\\kingsleague\\controllers\\jogadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8B483E9-4E85-436E-823B-8E83CF894880}|KingsLeague\\KingsLeague.csproj|solutionrelative:kingsleague\\controllers\\jogadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8B483E9-4E85-436E-823B-8E83CF894880}|KingsLeague\\KingsLeague.csproj|c:\\users\\desktop\\source\\repos\\kingsleague\\kingsleague\\controllers\\tecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8B483E9-4E85-436E-823B-8E83CF894880}|KingsLeague\\KingsLeague.csproj|solutionrelative:kingsleague\\controllers\\tecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TecnicosController.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\Controllers\\TecnicosController.cs",
+              "RelativeDocumentMoniker": "KingsLeague\\Controllers\\TecnicosController.cs",
+              "ToolTip": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\Controllers\\TecnicosController.cs",
+              "RelativeToolTip": "KingsLeague\\Controllers\\TecnicosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:02:22.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatrociniosController.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\Controllers\\PatrociniosController.cs",
+              "RelativeDocumentMoniker": "KingsLeague\\Controllers\\PatrociniosController.cs",
+              "ToolTip": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\Controllers\\PatrociniosController.cs",
+              "RelativeToolTip": "KingsLeague\\Controllers\\PatrociniosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:01:58.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JogadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\Controllers\\JogadoresController.cs",
+              "RelativeDocumentMoniker": "KingsLeague\\Controllers\\JogadoresController.cs",
+              "ToolTip": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\Controllers\\JogadoresController.cs",
+              "RelativeToolTip": "KingsLeague\\Controllers\\JogadoresController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:01:02.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Times.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\Models\\Times.cs",
+              "RelativeDocumentMoniker": "KingsLeague\\Models\\Times.cs",
+              "ToolTip": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\Models\\Times.cs",
+              "RelativeToolTip": "KingsLeague\\Models\\Times.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:54:56.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tecnicos.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\Models\\Tecnicos.cs",
+              "RelativeDocumentMoniker": "KingsLeague\\Models\\Tecnicos.cs",
+              "ToolTip": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\Models\\Tecnicos.cs",
+              "RelativeToolTip": "KingsLeague\\Models\\Tecnicos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:54:50.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Jogos.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\Models\\Jogos.cs",
+              "RelativeDocumentMoniker": "KingsLeague\\Models\\Jogos.cs",
+              "ToolTip": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\Models\\Jogos.cs",
+              "RelativeToolTip": "KingsLeague\\Models\\Jogos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:54:42.08Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

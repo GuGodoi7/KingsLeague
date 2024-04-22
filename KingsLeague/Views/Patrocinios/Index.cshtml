@@ -1,0 +1,53 @@
+﻿@model IEnumerable<KingsLeague.Models.Patrocinios>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Verba)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrazoContrato)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoContrato)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Verba)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrazoContrato)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoContrato)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PatrocinioId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PatrocinioId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PatrocinioId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
