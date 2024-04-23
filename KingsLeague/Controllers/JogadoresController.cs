@@ -42,6 +42,7 @@ namespace KingsLeague.Controllers
         // GET: Jogadores/Create
         public IActionResult Create()
         {
+            ViewData["TimeId"] = new SelectList(_context.Times, "TimeId", "Nome");
             return View();
         }
 

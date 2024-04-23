@@ -237,3 +237,4 @@ C:\Users\Desktop\source\repos\KingsLeague\KingsLeague\bin\Debug\net8.0\runtimes\
 C:\Users\Desktop\source\repos\KingsLeague\KingsLeague\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Desktop\source\repos\KingsLeague\KingsLeague\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Desktop\source\repos\KingsLeague\KingsLeague\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Desktop\source\repos\KingsLeague\KingsLeague\obj\Debug\net8.0\KingsLeague.sourcelink.json

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using KingsLeague.Models;
 using KingsLeague.Persistencia;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace KingsLeague.Controllers
 {
@@ -41,6 +42,7 @@ namespace KingsLeague.Controllers
         // GET: Patrocinios/Create
         public IActionResult Create()
         {
+            ViewData["TimeId"] = new SelectList(_context.Times, "TimeId", "Nome");
             return View();
         }
 

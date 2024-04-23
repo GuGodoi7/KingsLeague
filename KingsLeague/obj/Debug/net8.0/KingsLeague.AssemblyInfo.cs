@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KingsLeague")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+268f67f69c75583d6e461c4454e2f4ab4cd00c95")]
 [assembly: System.Reflection.AssemblyProductAttribute("KingsLeague")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KingsLeague")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
