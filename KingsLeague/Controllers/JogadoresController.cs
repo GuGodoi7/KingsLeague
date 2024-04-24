@@ -74,6 +74,7 @@ namespace KingsLeague.Controllers
             {
                 return NotFound();
             }
+            ViewData["TimeId"] = new SelectList(_context.Times, "TimeId", "Nome", jogadores.TimeId);
             return View(jogadores);
         }
 
