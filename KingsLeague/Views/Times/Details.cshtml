@@ -46,3 +46,39 @@
     <a asp-action="Edit" asp-route-id="@Model?.TimeId">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
+
+@if (Model.Tecnicos is null)
+{
+    @* Cadastrar e Vincular um tecnico *@
+    <p>
+        <a asp-controller="Tecnicos" asp-action="Create" asp-route-id="@Model?.TimeId">Criar Tecnico</a>
+    </p>
+
+}else
+{
+    @* Editar o tecnico *@
+    <p>
+        <a asp-controller="Tecnicos" asp-action="Edit" asp-route-id="@Model?.TecnicoId">Editar Tecnico</a>
+    </p>
+
+    <h2>Tecnico</h2>
+
+    <a>
+        @Html.DisplayFor(model => model.Tecnicos.Nome)
+    </a>
+    <a>
+        @Html.DisplayFor(model => model.Tecnicos.DataNascimento)
+    </a>
+    <a>
+        @Html.DisplayFor(model => model.Tecnicos.Salario)
+    </a>
+    <a>
+        @Html.DisplayFor(model => model.Tecnicos.Nacionalidade)
+    </a>
+    <a>
+        @Html.DisplayFor(model => model.Tecnicos.TempoCarreira)
+    </a>
+    <a>
+        @Html.DisplayFor(model => model.Tecnicos.Estrategia)
+    </a>
+}
