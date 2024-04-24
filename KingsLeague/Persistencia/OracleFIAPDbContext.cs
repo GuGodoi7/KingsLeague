@@ -7,7 +7,6 @@ namespace KingsLeague.Persistencia
     public class OracleFIAPDbContext : DbContext
     {
         public DbSet<Times> Times { get; set; }
-        public DbSet<Tecnicos> Tecnicos { get; set; }
 
         public DbSet<Patrocinios> Patrocinios { get; set; }
 
@@ -20,5 +19,6 @@ namespace KingsLeague.Persistencia
         {
 
         }
+        public DbSet<KingsLeague.Models.Tecnicos> Tecnicos { get; set; } = default!;
     }
 }
