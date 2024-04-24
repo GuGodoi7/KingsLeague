@@ -57,6 +57,7 @@ namespace KingsLeague.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["TimeId"] = new SelectList(_context.Times, "TimeId", "Nome", patrocinios.TimeId);
             return View(patrocinios);
         }
 
@@ -73,6 +74,7 @@ namespace KingsLeague.Controllers
             {
                 return NotFound();
             }
+            ViewData["TimeId"] = new SelectList(_context.Times, "TimeId", "Nome", patrocinios.TimeId);
             return View(patrocinios);
         }
 
@@ -106,6 +108,7 @@ namespace KingsLeague.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["TimeId"] = new SelectList(_context.Times, "TimeId", "Nome", patrocinios.TimeId);
             return View(patrocinios);
         }
 
