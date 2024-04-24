@@ -33,7 +33,7 @@ namespace KingsLeague.Controllers
                 return NotFound();
             }
 
-            var times = await _context.Times
+            var times = await _context.Times.Include(x => x.Tecnicos)
                 .FirstOrDefaultAsync(m => m.TimeId == id);
             if (times == null)
             {
