@@ -54,11 +54,19 @@ namespace KingsLeague.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("TecnicoId,Nome,DataNascimento,Salario,Nacionalidade,TempoCarreira,Estrategia")] Tecnicos tecnicos)
+        public async Task<IActionResult> Create(int id, [Bind("TecnicoId,Nome,DataNascimento,Salario,Nacionalidade,TempoCarreira,Estrategia")] Tecnicos tecnicos)
         {
+            Times times = _context.Times.SingleOrDefault(x => x.TimeId == id);
+
+            if (times == null) return NotFound();
+
             if (ModelState.IsValid)
             {
                 _context.Add(tecnicos);
+                await _context.SaveChangesAsync();
+                times.TecnicoId = tecnicos.TecnicoId;
+
+                _context.Update(times);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

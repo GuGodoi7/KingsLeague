@@ -6585,19 +6585,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Desktop\\.nuget\\packages\\": {}
+    "C:\\Users\\mathe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\KingsLeague.csproj",
+      "projectUniqueName": "C:\\Users\\mathe\\Source\\Repos\\KingsLeague\\KingsLeague\\KingsLeague.csproj",
       "projectName": "KingsLeague",
-      "projectPath": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\KingsLeague.csproj",
-      "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Desktop\\source\\repos\\KingsLeague\\KingsLeague\\obj\\",
+      "projectPath": "C:\\Users\\mathe\\Source\\Repos\\KingsLeague\\KingsLeague\\KingsLeague.csproj",
+      "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mathe\\Source\\Repos\\KingsLeague\\KingsLeague\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -4,10 +4,9 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>@Html.DisplayFor(model => model.Nome)</h1>
 
 <div>
-    <h4>@Html.DisplayFor(model => model.Nome)</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -28,24 +27,18 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Estadio)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TecnicoId)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TecnicoId)
-        </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.TimeId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.TimeId">Editar</a> |
+    <a asp-action="Index">Voltar para a Lista</a>
 </div>
 
-@if (Model.Tecnicos is null)
+@if (Model.TecnicoId is null)
 {
     @* Cadastrar e Vincular um tecnico *@
     <p>
-        <a asp-controller="Tecnicos" asp-action="Create" asp-route-id="@Model?.TimeId">Criar Tecnico</a>
+        <a asp-controller="Tecnicos" asp-action="Create" asp-route-id="@Model?.TimeId">Adicionar Tecnico</a>
     </p>
 
 }else
@@ -54,25 +47,4 @@
     <p>
         <a asp-controller="Tecnicos" asp-action="Edit" asp-route-id="@Model?.TecnicoId">Editar Tecnico</a>
     </p>
-
-    <h2>Tecnico</h2>
-
-    <a>
-        @Html.DisplayFor(model => model.Tecnicos.Nome)
-    </a>
-    <a>
-        @Html.DisplayFor(model => model.Tecnicos.DataNascimento)
-    </a>
-    <a>
-        @Html.DisplayFor(model => model.Tecnicos.Salario)
-    </a>
-    <a>
-        @Html.DisplayFor(model => model.Tecnicos.Nacionalidade)
-    </a>
-    <a>
-        @Html.DisplayFor(model => model.Tecnicos.TempoCarreira)
-    </a>
-    <a>
-        @Html.DisplayFor(model => model.Tecnicos.Estrategia)
-    </a>
 }
